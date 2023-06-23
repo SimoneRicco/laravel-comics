@@ -9,3 +9,34 @@ body {
 h1 {
     color: red;
 }
+.jumbo{
+    height: 400px;
+    background-image: url("../images/jumbotron.jpg");
+    background-size: cover;
+}
+.card{
+    width: calc(100% / 6 - 2rem);
+}
+.footer-top{
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    .container{
+        height: 400px;
+    }
+}
+
+.footer-col{
+    ul{
+        list-style: none;
+        .list-title{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
+.dc-image{
+    object-position: center;
+}
+.footer-info, .dc-image-footer{
+    width: 50%;
+}
