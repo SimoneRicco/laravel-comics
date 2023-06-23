@@ -1,7 +1,7 @@
 <footer class="text-light">
     <div class="footer-top">
         <div class="container d-flex">
-            <div class="footer-info">
+            <div class="footer-info py-3">
                 <div class="d-flex">
                     <div class="footer-col">
                         <ul>
@@ -53,6 +53,17 @@
             </div>
             <div class="dc-image-footer">
                 <img src="{{ Vite::asset('../resources/images/dc-logo-bg.png')}}" alt="" class="dc-image">
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container py-3">
+            <button type="button" class="btn btn-outline-primary text-light">SING-UP NOW!</button>
+            <div class="socials d-flex ml-auto">
+                <div class="text-primary">
+                    FOLLOW US
+                </div>
+                <img src="{{ Vite::asset('../resources/images/footer-facebook.png') }}" alt="">
             </div>
         </div>
     </div>

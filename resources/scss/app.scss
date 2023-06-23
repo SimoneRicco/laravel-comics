@@ -34,9 +34,14 @@ h1 {
         }
     }
 }
-.dc-image{
-    object-position: center;
+.dc-image-footer{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 .footer-info, .dc-image-footer{
     width: 50%;
+}
+.footer-bottom{
+    background-color: rgb(25, 25, 25);
 }
