@@ -1,4 +1,4 @@
-<footer class="text-light">
+<footer>
     <div class="footer-top">
         <div class="container d-flex">
             <div class="footer-info py-3">
@@ -57,13 +57,17 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <div class="container py-3">
+        <div class="container py-3 d-flex">
             <button type="button" class="btn btn-outline-primary text-light">SING-UP NOW!</button>
-            <div class="socials d-flex ml-auto">
+            <div class="socials d-flex gap-3">
                 <div class="text-primary">
                     FOLLOW US
                 </div>
                 <img src="{{ Vite::asset('../resources/images/footer-facebook.png') }}" alt="">
+                <img src="{{ Vite::asset('../resources/images/footer-twitter.png') }}" alt="">
+                <img src="{{ Vite::asset('../resources/images/footer-youtube.png') }}" alt="">
+                <img src="{{ Vite::asset('../resources/images/footer-pinterest.png') }}" alt="">
+                <img src="{{ Vite::asset('../resources/images/footer-periscope.png') }}" alt="">
             </div>
         </div>
     </div>

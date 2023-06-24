@@ -18,6 +18,7 @@ h1 {
     width: calc(100% / 6 - 2rem);
 }
 .footer-top{
+    color: gray;
     background-image: url("../images/footer-bg.jpg");
     background-size: cover;
     .container{
@@ -29,6 +30,7 @@ h1 {
     ul{
         list-style: none;
         .list-title{
+            color: white;
             font-weight: bold;
             font-size: 1.2rem;
         }
@@ -44,4 +46,7 @@ h1 {
 }
 .footer-bottom{
     background-color: rgb(25, 25, 25);
+}
+.socials{
+    margin-left: auto;
 }
