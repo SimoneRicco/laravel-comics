@@ -50,3 +50,11 @@ h1 {
 .socials{
     margin-left: auto;
 }
+.item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    img{
+        width: 50px;
+    }
+}
